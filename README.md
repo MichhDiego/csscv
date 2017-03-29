@@ -3,6 +3,9 @@
 **CSSCV is a simple, opinionated stylesheet for formatting semantic HTML to look
 like a CSS file.**
 
+## Preview
+You can access the preview by [clicking here](http://htmlpreview.github.io/?https://github.com/MichhDiego/csscv/blob/master/index.html)
+
 ## Getting started
 
 The simplest way to get started with CSSCV is to dive right into the HTML and
