@@ -4,7 +4,7 @@
 like a CSS file.**
 
 ## Preview
-You can access the preview by [clicking here](http://htmlpreview.github.io/?https://github.com/MichhDiego/csscv/blob/master/index.html)
+You can access the preview by [clicking here](http://htmlpreview.github.io/?https://github.com/itsmichaeldiego/csscv/blob/master/index.html)
 
 ## Getting started
 
