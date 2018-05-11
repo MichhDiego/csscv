@@ -171,11 +171,13 @@ without polluting your markup. To signify an element or modifier, use the
 corresponding class. You need to also use the `data-namespace` attribute in
 order to prepend the class with the correct block name, e.g.:
 
+```
   <h3 class="selector">Job</h3>
 
   ...
 
   <h4 class="selector"><span class="modifier" data-namespace="job">Company</span></h4>
+```
 
 ### `.comment`, `.comment-block` and `.comment-block__line`
 
