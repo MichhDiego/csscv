@@ -4,7 +4,7 @@
 like a CSS file.**
 
 ## Preview
-You can access the preview by [clicking here](http://htmlpreview.github.io/?https://github.com/itsmichaeldiego/csscv/blob/master/index.html)
+You can access the preview by [clicking here](https://itsmichaeldiego.github.io/csscv/)
 
 ## Getting started
 
@@ -41,39 +41,35 @@ There are a series of simple yet strict rules to follow in order to use CSSCV.
 Rulesets are built using definition lists and comments and selectors are usually
 constructed using headings. Below is a simple example that we will deconstruct:
 
-    <div class="ruleset">
+  <div class="ruleset">
+    <h3 class="selector">Me</h3>
 
-        <h3 class="selector">Me</h3>
+    <dl class="declarations">
+      <dt class="property">Name</dt>
+      <dd class="value"><span class="string">Harry Roberts</span></dd>
 
-        <dl class="declarations">
+      <dt class="property">Job</dt>
+      <dd class="value"><span class="string">Consultant Front-end Architect</span></dd>
 
-            <dt class="property">Name</dt>
-            <dd class="value"><span class="string">Harry Roberts</span></dd>
+      <dt class="property">Location</dt>
+      <dd class="value"><span class="string">Leeds, UK</span></dd>
 
-            <dt class="property">Job</dt>
-            <dd class="value"><span class="string">Consultant Front-end Architect</span></dd>
-
-            <dt class="property">Location</dt>
-            <dd class="value"><span class="string">Leeds, UK</span></dd>
-
-            <dt class="property">Skills</dt>
-            <dd class="value">
-                <ul class="value-list">
-                    <li><span class="string">Front-end Architecture</span></li>
-                    <li>Design</li>
-                    <li>Development</li>
-                    <li>OOCSS</li>
-                    <li>Performance</li>
-                    <li><span class="string">Responsive Web Design</span></li>
-                    <li>Git</li>
-                    <li>Vim</li>
-                    <li>Agile</li>
-                </ul>
-            </dd>
-
-        </dl>
-
-    </div>
+      <dt class="property">Skills</dt>
+      <dd class="value">
+          <ul class="value-list">
+              <li><span class="string">Front-end Architecture</span></li>
+              <li>Design</li>
+              <li>Development</li>
+              <li>OOCSS</li>
+              <li>Performance</li>
+              <li><span class="string">Responsive Web Design</span></li>
+              <li>Git</li>
+              <li>Vim</li>
+              <li>Agile</li>
+          </ul>
+      </dd>
+    </dl>
+  </div>
 
 Let’s take a look at what this does:
 
@@ -175,11 +171,11 @@ without polluting your markup. To signify an element or modifier, use the
 corresponding class. You need to also use the `data-namespace` attribute in
 order to prepend the class with the correct block name, e.g.:
 
-    <h3 class="selector">Job</h3>
+  <h3 class="selector">Job</h3>
 
-    ...
+  ...
 
-    <h4 class="selector"><span class="modifier" data-namespace="job">Company</span></h4>
+  <h4 class="selector"><span class="modifier" data-namespace="job">Company</span></h4>
 
 ### `.comment`, `.comment-block` and `.comment-block__line`
 
@@ -187,11 +183,11 @@ These classes, unsurprisingly, style markup to look like comments. The `.comment
 class gives an inline comment, whilst `.comment-block` gives us a DocBlock
 style comment:
 
-    <p class="comment-block">
-        <span class="comment-block__line">Foo</span>
-        <span class="comment-block__line">Bar</span>
-        <span class="comment-block__line">Baz</span>
-    </p>
+  <p class="comment-block">
+    <span class="comment-block__line">Foo</span>
+    <span class="comment-block__line">Bar</span>
+    <span class="comment-block__line">Baz</span>
+  </p>
 
 ### `.notice`
 
