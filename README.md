@@ -185,11 +185,13 @@ These classes, unsurprisingly, style markup to look like comments. The `.comment
 class gives an inline comment, whilst `.comment-block` gives us a DocBlock
 style comment:
 
+```
   <p class="comment-block">
     <span class="comment-block__line">Foo</span>
     <span class="comment-block__line">Bar</span>
     <span class="comment-block__line">Baz</span>
   </p>
+  ````
 
 ### `.notice`
 
